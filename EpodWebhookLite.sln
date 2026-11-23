@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFC24C73-ADD4-42BF-99A4-D975C8A193F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpodWebhookLite", "src\EpodWebhookLite\EpodWebhookLite.csproj", "{0F99C82F-8D2A-4113-A0C7-64529BDC60F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E5D105D4-242C-4ACA-B453-7542068F2212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpodWebhookLite.Tests", "tests\EpodWebhookLite.Tests\EpodWebhookLite.Tests.csproj", "{3109A792-34F0-4996-AD1C-7EF65F573908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F99C82F-8D2A-4113-A0C7-64529BDC60F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F99C82F-8D2A-4113-A0C7-64529BDC60F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F99C82F-8D2A-4113-A0C7-64529BDC60F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F99C82F-8D2A-4113-A0C7-64529BDC60F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3109A792-34F0-4996-AD1C-7EF65F573908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3109A792-34F0-4996-AD1C-7EF65F573908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3109A792-34F0-4996-AD1C-7EF65F573908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3109A792-34F0-4996-AD1C-7EF65F573908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F99C82F-8D2A-4113-A0C7-64529BDC60F1} = {CFC24C73-ADD4-42BF-99A4-D975C8A193F6}
+		{3109A792-34F0-4996-AD1C-7EF65F573908} = {E5D105D4-242C-4ACA-B453-7542068F2212}
+	EndGlobalSection
+EndGlobal
